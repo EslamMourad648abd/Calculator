@@ -5,7 +5,7 @@ num result;
 //the first output that the user sees directly after running
 print("Enter the first number:");
 //to take the first number from the user
-num? num1=int.parse(stdin.readLineSync()!);
+num? num1=num.parse(stdin.readLineSync()!);
 //the second output that the user sees after running
 print("Enter the operator you want from these (+,-,*,/):");
 //Then to take the operator input from user within the said parameters
@@ -13,7 +13,7 @@ String? operator=stdin.readLineSync()!;
 //the third output that the user sees after running
 print("Enter the second number:");
 //to take the second number from the user
-num? num2=int.parse(stdin.readLineSync()!);
+num? num2=num.parse(stdin.readLineSync()!);
 //decleration of the operators functionality
 switch(operator){
   //when inputting an operator from the upcoming ones the operation declared inside them is executed
